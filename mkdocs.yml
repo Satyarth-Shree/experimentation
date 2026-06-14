@@ -1,0 +1,22 @@
+site_name: ROS Simplified
+
+theme:
+  name: material
+  logo: assets/images/ROS_Simplified_Logo.png
+  favicon: assets/images/ROS_Simplified_Logo.png
+
+  palette:
+
+    - scheme: default
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+
+    - scheme: slate
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
