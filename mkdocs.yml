@@ -2,6 +2,7 @@ site_name: ROS Simplified
 
 theme:
   name: material
+  site_url: https://random-experiments.satyarthshree.com
   logo: assets/images/ROS_Simplified_Logo.png
   favicon: assets/images/ROS_Simplified_Logo.png
 
