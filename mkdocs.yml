@@ -1,23 +1,73 @@
 site_name: ROS Simplified
+site_url: https://random-experiments.satyarthshree.com
+site_author: Satyarth Shree
+site_description: Beginner-friendly ROS 2 tutorials
+
+repo_name: Satyarth-Shree/experimentation
+repo_url: https://github.com/Satyarth-Shree/experimentation
 
 theme:
   name: material
-  site_url: https://random-experiments.satyarthshree.com
-  logo: assets/images/ROS_Simplified_Logo.png
-  favicon: assets/images/ROS_Simplified_Logo.png
-
   palette:
-
+    # Light mode
     - scheme: default
       primary: deep purple
-      accent: cyan
+      accent: indigo
       toggle:
-        icon: material/weather-night
-        name: Dark mode
-
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
     - scheme: slate
       primary: deep purple
-      accent: cyan
+      accent: indigo
       toggle:
-        icon: material/weather-sunny
-        name: Light mode
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  features:
+    - navigation.tabs          # Top-level nav becomes tabs
+    - navigation.tabs.sticky   # Tabs stay visible while scrolling
+    - navigation.sections      # Groups in sidebar
+    - navigation.expand        # Auto-expand sidebar sections
+    - navigation.top           # "Back to top" button
+    - navigation.indexes       # Section index pages
+    - search.highlight         # Highlights search term on page
+    - search.suggest           # Autocomplete in search
+    - content.code.copy        # Copy button on code blocks
+    - content.code.annotate    # Code annotations
+
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition               # Note/warning/tip boxes
+  - pymdownx.details         # Collapsible admonitions
+  - pymdownx.superfences     # Nested code blocks, diagrams
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite    # Inline code highlighting
+  - pymdownx.tabbed:
+      alternate_style: true  # Content tabs
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Satyarth-Shree
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/yourprofile
+
+copyright: Copyright &copy; 2025 Satyarth Shree
