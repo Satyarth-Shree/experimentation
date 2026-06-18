@@ -2,14 +2,14 @@ site_name: ROS Simplified
 site_url: https://random-experiments.satyarthshree.com
 site_author: Satyarth Shree
 site_description: Beginner-friendly ROS 2 tutorials
-logo: assets/images/ROS_Simplified_Logo.png
-favicon: assets/images/ROS_Simplified_Logo.png
 
 repo_name: Satyarth-Shree/experimentation
 repo_url: https://github.com/Satyarth-Shree/experimentation
 
 theme:
   name: material
+  logo: assets/images/ROS_Simplified_Logo.png
+  favicon: assets/images/ROS_Simplified_Logo.png
   palette:
     # Light mode
     - scheme: default
