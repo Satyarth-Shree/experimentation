@@ -2,6 +2,8 @@ site_name: ROS Simplified
 site_url: https://random-experiments.satyarthshree.com
 site_author: Satyarth Shree
 site_description: Beginner-friendly ROS 2 tutorials
+logo: assets/images/ROS_Simplified_Logo.png
+favicon: assets/images/ROS_Simplified_Logo.png
 
 repo_name: Satyarth-Shree/experimentation
 repo_url: https://github.com/Satyarth-Shree/experimentation
@@ -68,6 +70,6 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/Satyarth-Shree
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/yourprofile
+      link: https://www.linkedin.com/in/satyarth-shree-761357374/
 
 copyright: Copyright &copy; 2025 Satyarth Shree
